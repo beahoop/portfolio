@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
-}
+/* Colors
+matte black: #252525;
+off white: #F8F7ED;
+pink #D295BD;
+ */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* ////////////Helpful css/// */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background-color: #252525;
   color: white;
+  font-size: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.hide{
+  display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+body a{
+  color: #F8F7ED;
+}
+.wrapper{
+  padding: 0px 20px;
+}
+
+
+/* ///////ABOUT ABOVE// */
+.above {
+  height: 100vh;
+  font-size: .75rem;
+}
+.name{
+  margin-top: 50px;
+}
+.sarah {
+  font-size: 7rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color:#F8F7ED;
+  padding: 0;
+  margin: -50px 0px 0px 0px;
+  animation: slide-in ease 4s;
+}
+.rainbow-name {
+  animation: rainbow ease 10s;
+}
+
+.pink {
+  color: #D295BD;
+}
+
+.bar{
+  width: 98%;
+  height: 25px;
+  background-color: #D295BD;
+  /* animation: slide-in ease 1s; */
+}
+
+.white-bar {
+  width: 93%;
+  position: absolute;
+  height: 25px;
+  background-color: #F8F7ED;
+  animation: slide-in ease 4s;
+}
+
+
+/* /////////// Navbar ///// */
+.homepage-nav {
+  background-color: #F8F7ED;
+  text-align: center;
+  /* padding: 10px; */
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.homepage-nav a {
+  color: #252525;
+  /* padding: 0px 25px; */
+  text-decoration: none;
+}
+.homepage-nav a:hover{
+  color: #D295BD;
+}
+
+#easteregg {
+  background-color: #D295BD;
+}
+
+/* ////////RESUME/ */
+
+.resume-btn {
+  background-color: #D295BD;
+}
+
+
+/* ////////// KEYFRAMES // */
+
+
+@keyframes rainbow {
+  0% {background-color: red }
+  10% {background-color: orange }
+  25% {background-color:  yellow}
+  50% {background-color: green }
+  75% {background-color: blue }
+  100% {background-color: purple }
+}
+
+@keyframes slide-in {
+  0% {transform: translateX(-1000px);
+  opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
+  100% {transform: translateX(0);
+  opacity: 1;
   }
 }
+
+
+/* /////// MEDIA QUERY/ */
