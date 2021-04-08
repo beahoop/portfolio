@@ -141,34 +141,28 @@ body a{
 .resume-btn:hover{
   background-color: #D295BD;
 }
+
+.resume-paper {
+  animation: slide-down ease 2s;
+
+}
 /* //////////////PORJECTS */
 
 .project {
   margin-bottom: 100px;
 }
 
-.project-img{
+.project-a{
+  position: absolute;
+  top: 0;
+}
+.project-a:hover{
+  opacity: .2;
+}
+
+.project-description-container{
   position: relative;
-}
-
-.project-description {
-  position: absolute;
-  background-color: #D295BD;
-  opacity: .8;
-  width: 87%;
-  padding: -15px;
-  height: 100%;
-}
-
-.project-description-p {
-  position: absolute;
   text-align: center;
-  width: 75%;
-  font-size: 1rem;
-}
-
-.project-description-container:hover {
-  display: none;
 }
 
 
@@ -191,6 +185,15 @@ body a{
   opacity: 0;
   }
   100% {transform: translateX(0);
+  opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  0% {transform: translateY(-1000px);
+  opacity: 0;
+  }
+  100% {transform: translateY(0);
   opacity: 1;
   }
 }

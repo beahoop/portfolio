@@ -75,7 +75,7 @@ toggleEmail(){
                 </p>
               <div className="about-p">
                 This is just me talking about me and telling you some more stuff about myself.
-                I'm pretty cool, I like looking different and acting kind.
+                I guess I'm pretty cool, I like looking different and acting kind.
                 Photo on the left, text on the right with contact links
               </div>
               <p className="soical-icons row m-0">
