@@ -38,7 +38,7 @@ body a{
   text-transform: uppercase;
   font-weight: bolder;
   color: #F8F7ED;
-  padding: 0;
+  margin: 0px 0px 10px -8px;
   line-height: 5.25rem;
   /* margin: -85px 0px 0px 0px; */
   animation: slide-in ease 4s;
@@ -65,6 +65,43 @@ body a{
 .about-p{
   padding-right: 100px;
 }
+
+
+.soical-icons i{
+  font-size: 2rem;
+  padding: 25px 10px 5px 0px;
+  color:#F8F7ED;
+}
+.soical-icons i:hover, .soical-icons i:active{
+  color:#D295BD;
+}
+
+.soical-icons span{
+  font-size: 1.5rem;
+  padding-right: 5px;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltiptext:hover {
+ visibility: visible;
+}
+
+
+
 
 .bar{
   margin: 50px 0px;
