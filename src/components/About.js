@@ -1,5 +1,6 @@
 import {Component} from 'react';
-import Resume from '../components/documents/Sarah Bea Hooper-Resume2020.jpg'
+import ResumeDownload from '../components/documents/Sarah Bea Hooper-Resume2020.jpg'
+import Resume from '../components/Resume';
 
 class About extends Component {
   constructor(props) {
@@ -8,10 +9,12 @@ class About extends Component {
     rainbow: "none",
     showPhone: "hide",
     showEmail: "hide",
+    showResume: "hide",
   }
   this.toggleRainbow = this.toggleRainbow.bind(this);
   this.togglePhone = this.togglePhone.bind(this);
   this.toggleEmail = this.toggleEmail.bind(this);
+  this.toggleResume = this.toggleResume.bind(this);
 }
 
 toggleRainbow(){
@@ -20,6 +23,14 @@ toggleRainbow(){
   }
   else if (this.state.rainbow === "rainbow-name") {
       this.setState({rainbow: "none"});
+  }
+}
+toggleResume(){
+  if(this.state.showResume === "hide"){
+    this.setState({showResume: "show"});
+  }
+  else if (this.state.showResume === "show") {
+      this.setState({showResume: "hide"});
   }
 }
 
@@ -72,18 +83,25 @@ toggleEmail(){
               <a href="https://www.linkedin.com/in/beahoopdesign/" target="_blank" rel="noreferrer">
                 <i className="fab fa-linkedin"></i>
               </a>
-              <a href={Resume} download>
-              <i className="fas fa-caret-square-down" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"></i>
-              </a>
+
+
+              <button className="btn resume-btn" onClick={this.toggleResume}>Resume</button>
 
               </p>
               </div>
-
-
-
           </div>
         </div>
         <div className="bar"> <span className="white-bar"></span></div>
+        <div className="row resume-show">
+          <div  className={this.state.showResume}>
+            <div className="col-10">
+            <a href={ResumeDownload}  download> Download
+            <i className="fas fa-caret-square-down" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"></i>
+            </a>
+          </div>
+            <img src="https://i.imgur.com/nLipLa7.jpg" alt="..." className="col-10 mx-8 resume-paper"/>
+          </div>
+        </div>
       </>
     );
   }

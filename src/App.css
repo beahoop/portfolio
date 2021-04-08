@@ -66,7 +66,6 @@ body a{
   padding-right: 100px;
 }
 
-
 .soical-icons i{
   font-size: 2rem;
   padding: 25px 10px 5px 0px;
@@ -76,9 +75,13 @@ body a{
   color:#D295BD;
 }
 
-.soical-icons span{
+.resume-show {
+  text-align: center;
+}
+
+.resume-show a{
   font-size: 1.5rem;
-  padding-right: 5px;
+  padding: 5px;
 }
 
 .tooltiptext {
@@ -99,9 +102,6 @@ body a{
 .tooltiptext:hover {
  visibility: visible;
 }
-
-
-
 
 .bar{
   margin: 50px 0px;
@@ -146,7 +146,13 @@ body a{
 /* ////////RESUME/ */
 
 .resume-btn {
+  margin-top: -10px;
+  font-size: 1rem;
   background-color: #D295BD;
+}
+/* //////////////PORJECTS */
+.project-img:hover{
+  opacity: .5;
 }
 
 

@@ -36,16 +36,14 @@ addRecipe(recipe){
       <div className="container-fluid p-0">
         <div className="above">
           <div id="about">
-            <About/>
+            <About/> 
           </div>
         </div>
         <div className="wrapper">
         <div id="projects">
           <Project/>
         </div>
-        <div id="resume">
-          <Resume/>
-        </div>
+
       </div>
       </div>
 
