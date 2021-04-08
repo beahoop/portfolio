@@ -67,7 +67,7 @@ body a{
 }
 
 .soical-icons i{
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 25px 10px 5px 0px;
   color:#F8F7ED;
 }
@@ -84,27 +84,9 @@ body a{
   padding: 5px;
 }
 
-.tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: white;
-  color: black;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-
-  /* Position the tooltip text - see examples below! */
-  position: absolute;
-  z-index: 1;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltiptext:hover {
- visibility: visible;
-}
 
 .bar{
-  margin: 50px 0px;
+  margin: 0px 0px 50px 0px;
   width: 98%;
   height: 25px;
   background-color: #D295BD;
@@ -146,14 +128,50 @@ body a{
 /* ////////RESUME/ */
 
 .resume-btn {
-  margin-top: -10px;
-  font-size: 1rem;
+  padding: 3px 6px;
+  border-radius: 3px;
+  margin-top: auto;
+  margin-bottom: 5px;
+  font-size: .75rem;
+  font-weight: bold;
+  color:#252525;
+  background-color: #F8F7ED;
+}
+
+.resume-btn:hover{
   background-color: #D295BD;
 }
 /* //////////////PORJECTS */
-.project-img:hover{
-  opacity: .5;
+
+.project {
+  margin-bottom: 100px;
 }
+
+.project-img{
+  position: relative;
+}
+
+.project-description {
+  position: absolute;
+  background-color: #D295BD;
+  opacity: .8;
+  width: 87%;
+  padding: -15px;
+  height: 100%;
+}
+
+.project-description-p {
+  position: absolute;
+  text-align: center;
+  width: 75%;
+  font-size: 1rem;
+}
+
+.project-description-container:hover {
+  display: none;
+}
+
+
 
 
 /* ////////// KEYFRAMES // */
