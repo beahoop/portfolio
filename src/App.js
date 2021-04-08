@@ -39,32 +39,14 @@ addRecipe(recipe){
             <About/>
           </div>
         </div>
-        <div className="navbar sticky-top homepage-nav  row">
-            <a href="#top">
-              <span className="navbar-1 navbar-brand">BeaHoop</span>
-            </a>
-            <a href="#about">
-              <span className="navbar-1 navbar-brand">About</span>
-            </a>
-            <a href="#projects">
-              <span className="navbar-1 navbar-brand">Projects</span>
-            </a>
-            <a href="#resume">
-              <span className="navbar-1 navbar-brand">Resumes</span>
-            </a>
-            <a href="#easteregg" id="easteregg">
-              <span className="navbar-1 navbar-brand"></span>
-            </a>
+        <div className="wrapper">
+        <div id="projects">
+          <Project/>
         </div>
-          <div className="wrapper">
-
-          <div id="projects">
-            <Project/>
-          </div>
-          <div id="resume">
-            <Resume/>
-          </div>
+        <div id="resume">
+          <Resume/>
         </div>
+      </div>
       </div>
 
     );

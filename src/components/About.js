@@ -29,18 +29,16 @@ toggleRainbow(){
             This is where the pic goes
             </div>
               <div className="name col-12 col-md-6" onClick={this.toggleRainbow}>
-
                 <p className="sarah">
-                  Sarah
+                Sarah<br/>
+                <span className="pink">
+                Bea <br/>
+                Hoop</span>er
                 </p>
-                <p className="sarah pink">
-                  Bea
+                <p className="job-title">
+                  Web Development and Design
                 </p>
-                <p className="sarah">
-                  <span className="pink">Hoop</span>er
-                </p>
-
-              <div className="pr-5">
+              <div className="about-p">
                 This is just me talking about me and telling you some more stuff about myself.
                 I'm pretty cool, I like looking different and acting kind.
                 Photo on the left, text on the right with contact links

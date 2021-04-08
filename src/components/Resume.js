@@ -24,12 +24,9 @@ toggleShow(){
     return (
 
     <div className="resume row">
-    Add a button that says view resume
-    let the resume slide in
-    think about adding the resume in a different way than a paper resume
     <button className="col-12 col-md-6 mx-auto btn resume-btn" onClick={this.toggleShow}>View Resume</button>
       <div  className={this.state.show}>
-        <img src="https://i.imgur.com/nLipLa7.jpg" alt="..." className="col"/>
+        <img src="https://i.imgur.com/nLipLa7.jpg" alt="..." className="col resume-paper"/>
       </div>
     </div>
 

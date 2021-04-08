@@ -9,7 +9,7 @@ pink #D295BD;
 body {
   background-color: #252525;
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .hide{
@@ -26,30 +26,48 @@ body a{
 
 /* ///////ABOUT ABOVE// */
 .above {
-  height: 100vh;
+  /* height: 100vh; */
   font-size: .75rem;
 }
 .name{
-  margin-top: 50px;
+  margin-top: 25px;
 }
 .sarah {
+  width: 90%;
   font-size: 7rem;
   text-transform: uppercase;
   font-weight: bolder;
-  color:#F8F7ED;
+  color: #F8F7ED;
   padding: 0;
-  margin: -50px 0px 0px 0px;
+  line-height: 5.25rem;
+  /* margin: -85px 0px 0px 0px; */
   animation: slide-in ease 4s;
 }
 .rainbow-name {
-  animation: rainbow ease 10s;
+  animation: rainbow ease 6s;
 }
-
 .pink {
   color: #D295BD;
 }
 
+.job-title {
+  font-size: 1rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #F8F7ED;
+}
+.job-title:hover {
+  font-size: 1rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #D295BD;
+}
+.about-p{
+  padding-right: 100px;
+}
+
 .bar{
+  margin: 50px 0px;
   width: 98%;
   height: 25px;
   background-color: #D295BD;
