@@ -20,7 +20,7 @@ body a{
   color: #F8F7ED;
 }
 .wrapper{
-  padding: 0px 20px;
+  padding: 0px 20px 0px 0px;
 }
 
 
@@ -73,15 +73,6 @@ body a{
 }
 .soical-icons i:hover, .soical-icons i:active{
   color:#D295BD;
-}
-
-.resume-show {
-  text-align: center;
-}
-
-.resume-show a{
-  font-size: 1.5rem;
-  padding: 5px;
 }
 
 
@@ -144,7 +135,22 @@ body a{
 
 .resume-paper {
   animation: slide-down ease 2s;
+  padding-top: 25px;
 
+}
+.resume-show a{
+  text-decoration: none;
+}
+.resume-show {
+  text-align: center;
+}
+
+.resume-show a{
+  font-size: 1.5rem;
+  padding: 5px;
+}
+.resume-show a:hover{
+  color:#F8F7ED;
 }
 /* //////////////PORJECTS */
 
@@ -155,6 +161,7 @@ body a{
 .project-a{
   position: absolute;
   top: 0;
+
 }
 .project-a:hover{
   opacity: .2;
@@ -163,10 +170,12 @@ body a{
 .project-description-container{
   position: relative;
   text-align: center;
+  /* height: 350px; */
+  margin-bottom:75%;
 }
-
-
-
+.project-description-p{
+  font-size: .75rem;
+}
 
 /* ////////// KEYFRAMES // */
 

@@ -1,6 +1,5 @@
 import {Component} from 'react';
 import ResumeDownload from '../components/documents/Sarah Bea Hooper-Resume2020.jpg'
-import Resume from '../components/Resume';
 
 class About extends Component {
   constructor(props) {
@@ -91,13 +90,12 @@ toggleEmail(){
               </div>
           </div>
         </div>
-        <div className="bar"> <span className="white-bar"></span></div>
+        <div className="bar mt-4 mt-md-0"> <span className="white-bar"></span></div>
         <div className="row resume-show">
           <div  className={this.state.showResume}>
-            <div className="col-10">
-            <a href={ResumeDownload}  download> Download
-            <i className="fas fa-caret-square-down" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"></i>
-            </a>
+            <div className="col">
+            <a href={ResumeDownload} className="resume-btn" download> Download
+          </a>
           </div>
             <img src="https://i.imgur.com/nLipLa7.jpg" alt="..." className="col-10 mx-8 resume-paper"/>
           </div>
