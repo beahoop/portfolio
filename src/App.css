@@ -75,6 +75,14 @@ body a{
   color:#D295BD;
 }
 
+.phone-show {
+  display: block;
+  margin-top: 25px;
+  margin-right: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 
 .bar{
   margin: 0px 0px 50px 0px;
@@ -158,11 +166,14 @@ body a{
   margin-bottom: 100px;
 }
 
+
 .project-a{
   position: absolute;
   top: 0;
-
 }
+
+
+
 .project-a:hover{
   opacity: .2;
 }

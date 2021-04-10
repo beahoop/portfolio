@@ -35,18 +35,18 @@ toggleResume(){
 
 togglePhone(){
   if(this.state.showPhone === "hide"){
-    this.setState({showPhone: "show"});
+    this.setState({showPhone: "phone-show"});
   }
-  else if (this.state.showPhone === "show") {
+  else if (this.state.showPhone === "phone-show") {
       this.setState({showPhone: "hide"});
   }
 }
 
 toggleEmail(){
   if(this.state.showEmail === "hide"){
-    this.setState({showEmail: "show"});
+    this.setState({showEmail: "phone-show"});
   }
-  else if (this.state.showEmail === "show") {
+  else if (this.state.showEmail === "phone-show") {
       this.setState({showEmail: "hide"});
   }
 }
@@ -81,7 +81,9 @@ toggleEmail(){
               <i className="fas fa-envelope-square" onClick={this.toggleEmail}></i>
               <span className={this.state.showEmail}> beahoopdesign@gmail.com</span>
               <i className="fas fa-phone-square-alt" onClick={this.togglePhone}></i>
+              <span className="phone">
               <span className={this.state.showPhone}> (843)822-7793</span>
+              </span>
               <a href="https://www.linkedin.com/in/beahoopdesign/" target="_blank" rel="noreferrer">
                 <i className="fab fa-linkedin"></i>
               </a>
