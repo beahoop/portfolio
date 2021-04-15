@@ -1,5 +1,5 @@
 import {Component} from 'react';
-import ResumeDownload from '../components/documents/Sarah Bea Hooper-Resume2020.jpg'
+import ResumeDownload from "../components/documents/SarahBeaHooper-2021.pdf"
 
 class About extends Component {
   constructor(props) {
@@ -88,21 +88,15 @@ toggleEmail(){
               <a href="https://www.linkedin.com/in/beahoopdesign/" target="_blank" rel="noreferrer">
                 <i className="fab fa-linkedin"></i>
               </a>
-              <span className="resume-btn" onClick={this.toggleResume}>Resume</span>
+                <a href={ResumeDownload} className="resume-btn" target="_blank" rel="noreferrer" >
+              <span className="resume-btn">Resume</span>
+              </a>
               </p>
               </div>
           </div>
         </div>
         <div className="bar mt-4"> <span className="white-bar"></span></div>
-        <div className="row resume-show">
-          <div  className={this.state.showResume}>
-            <div className="col">
-            <a href={ResumeDownload} className="resume-btn" download> Download
-          </a>
-          </div>
-            <img src="https://i.imgur.com/nLipLa7.jpg" alt="..." className="col-10 mx-8 resume-paper"/>
-          </div>
-        </div>
+      
       </>
     );
   }

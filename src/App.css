@@ -5,7 +5,7 @@ pink #D295BD;
  */
 
 
- /* /////TEST/ */
+ /* /////Flip cards/ */
 
 .flip-card {
   background-color: transparent;
@@ -20,6 +20,11 @@ pink #D295BD;
   text-transform: uppercase;
   color: #F8F7ED;
   border-bottom: 4px solid #D295BD;
+}
+.flip-description{
+  font-size: 2rem;
+  padding: 0px 25px;
+  text-align: left;
 }
 
 .flip-card-inner {
@@ -197,6 +202,7 @@ body a{
 
 .resume-btn:hover{
   background-color: #D295BD;
+  text-decoration: none;
 }
 
 .resume-paper {
