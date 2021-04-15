@@ -4,6 +4,63 @@ off white: #F8F7ED;
 pink #D295BD;
  */
 
+
+ /* /////TEST/ */
+
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  perspective: 1000px;
+}
+
+.flip-title {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #F8F7ED;
+  border-bottom: 4px solid #D295BD;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #252525;
+  color: #F8F7ED;
+  transform: rotateY(180deg);
+}
+
+.preview-image{
+  width: 400px;
+  height: 400px;
+}
+
+
 /* ////////////Helpful css/// */
 
 body {
@@ -33,14 +90,12 @@ body a{
   margin-top: 25px;
 }
 .sarah {
-  width: 90%;
   font-size: 7rem;
   text-transform: uppercase;
   font-weight: bolder;
   color: #F8F7ED;
   margin: 0px 0px 10px -8px;
   line-height: 5.25rem;
-  /* margin: -85px 0px 0px 0px; */
   animation: slide-in ease 4s;
 }
 .rainbow-name {
@@ -51,23 +106,25 @@ body a{
 }
 
 .job-title {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bolder;
   text-transform: uppercase;
   color: #F8F7ED;
+  padding: 0px 0px 0px 10px;
 }
 .job-title:hover {
-  font-size: 1rem;
-  font-weight: bolder;
-  text-transform: uppercase;
+
   color: #D295BD;
 }
 .about-p{
-  padding-right: 100px;
+  padding: 0px 100px 0px 10px;
+}
+.soical-icons {
+  padding: 0px 0px 0px 10px;
 }
 
 .soical-icons i{
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 25px 10px 5px 0px;
   color:#F8F7ED;
 }
@@ -81,6 +138,7 @@ body a{
   margin-right: 10px;
   font-size: 1rem;
   font-weight: bold;
+  animation: slide-in-short ease 1s;
 }
 
 
@@ -131,7 +189,7 @@ body a{
   border-radius: 3px;
   margin-top: auto;
   margin-bottom: 5px;
-  font-size: .75rem;
+  font-size: 1.1rem;
   font-weight: bold;
   color:#252525;
   background-color: #F8F7ED;
@@ -166,13 +224,13 @@ body a{
   margin-bottom: 100px;
 }
 
-
 .project-a{
   position: absolute;
   top: 0;
+  width: 100%;
+  /* margin: 0px 10px; */
+  height: 200px;
 }
-
-
 
 .project-a:hover{
   opacity: .2;
@@ -182,10 +240,70 @@ body a{
   position: relative;
   text-align: center;
   /* height: 350px; */
-  margin-bottom:75%;
+  height: 50%;
+  /* margin-bottom:75%; */
 }
 .project-description-p{
   font-size: .75rem;
+}
+
+.img-project {
+  width: 100%;
+  height: 100%;
+}
+
+
+.project-title{
+  font-weight: bolder;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color:  #D295BD;
+}
+
+/* /////footer/// */
+
+.footer{
+  margin-top: 100px;
+  width: 100%;
+}
+
+.footer-content{
+  width: 100%;
+  overflow: hidden;
+  height: 50px;
+  background-color: #F8F7ED;
+}
+
+.soical-icons-footer i{
+  font-size: 2rem;
+  padding: 0px 10px 5px 0px;
+  color: #D295BD;
+}
+.soical-icons-footer i:hover, .soical-icons i:active{
+  color:#252525;
+}
+
+.resume-footer-btn {
+  padding: 3px 6px;
+  border-radius: 3px;
+  margin-top: auto;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #F8F7ED;
+  background-color: #D295BD;
+}
+
+.resume-footer-btn:hover{
+  background-color: #252525;
+}
+
+.phone-show-footer {
+  margin-top: 25px;
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: #D295BD;
+  font-weight: bold;
+  animation: slide-in-short ease 1s;
 }
 
 /* ////////// KEYFRAMES // */
@@ -208,6 +326,14 @@ body a{
   opacity: 1;
   }
 }
+@keyframes slide-in-short {
+  0% {transform: translateX(-10px);
+  opacity: 0;
+  }
+  100% {transform: translateX(0);
+  opacity: 1;
+  }
+}
 
 @keyframes slide-down {
   0% {transform: translateY(-1000px);
@@ -220,3 +346,30 @@ body a{
 
 
 /* /////// MEDIA QUERY/ */
+@media (max-width: 500px) {
+  .sarah{
+    font-size: 4rem;
+    line-height: 3rem;
+  }
+  .about-p{
+    padding: 0px 100px 0px 0px;
+  }
+  .job-title {
+    font-size: 1rem;
+    padding: 0px 0px 0px 0px;
+  }
+  .soical-icons {
+    padding: 0px 0px 0px 0px;
+  }
+}
+/* 1150 */
+/* .sarah {
+  font-size: 6rem;
+  margin: 0px 0px 10px -8px;
+} */
+
+/* 550 */
+/* {
+  font-size: 7rem;
+  margin: 0px 0px 10px -8px;
+} */
