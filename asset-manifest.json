@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4bf6d1a6.chunk.css",
-    "main.js": "/portfolio/static/js/main.b698c043.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b698c043.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.2db16268.chunk.css",
+    "main.js": "/portfolio/static/js/main.b08f6752.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b08f6752.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.61585e78.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.61585e78.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -12,22 +12,22 @@
     "static/js/3.8cac41ca.chunk.js.map": "/portfolio/static/js/3.8cac41ca.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/portfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.4bf6d1a6.chunk.css.map": "/portfolio/static/css/main.4bf6d1a6.chunk.css.map",
+    "static/css/main.2db16268.chunk.css.map": "/portfolio/static/css/main.2db16268.chunk.css.map",
     "static/js/2.76fb1e2d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.76fb1e2d.chunk.js.LICENSE.txt",
-    "static/media/Sarah Bea Hooper-Resume2020.71a1d65a.jpg": "/portfolio/static/media/Sarah Bea Hooper-Resume2020.71a1d65a.jpg",
-    "static/media/batchimage.7c3dff7a.png": "/portfolio/static/media/batchimage.7c3dff7a.png",
+    "static/media/SarahBeaHooper-2021.000cf1a4.pdf": "/portfolio/static/media/SarahBeaHooper-2021.000cf1a4.pdf",
     "static/media/dobra.83aa88b2.png": "/portfolio/static/media/dobra.83aa88b2.png",
     "static/media/github.1d4ad8d3.png": "/portfolio/static/media/github.1d4ad8d3.png",
     "static/media/layered-waves-haikei.7060b672.png": "/portfolio/static/media/layered-waves-haikei.7060b672.png",
     "static/media/octacats.ed810c9f.png": "/portfolio/static/media/octacats.ed810c9f.png",
     "static/media/rent-a-bob.4d461b10.png": "/portfolio/static/media/rent-a-bob.4d461b10.png",
+    "static/media/sk8.26db379d.png": "/portfolio/static/media/sk8.26db379d.png",
     "static/media/turnbasegame.17e7c7b7.png": "/portfolio/static/media/turnbasegame.17e7c7b7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.61585e78.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.76fb1e2d.chunk.js",
-    "static/css/main.4bf6d1a6.chunk.css",
-    "static/js/main.b698c043.chunk.js"
+    "static/css/main.2db16268.chunk.css",
+    "static/js/main.b08f6752.chunk.js"
   ]
 }
