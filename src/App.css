@@ -306,6 +306,10 @@ body a{
   animation: slide-in-short ease 1s;
 }
 
+#projects {
+  padding-left: 20px;
+}
+
 /* ////////// KEYFRAMES // */
 
 
@@ -346,6 +350,18 @@ body a{
 
 
 /* /////// MEDIA QUERY/ */
+@media (max-width: 900px) {
+#projects {
+  padding-left: 100px;
+}
+}
+
+@media (max-width: 700px) {
+#projects {
+  padding-left: 50px;
+}
+}
+
 @media (max-width: 500px) {
   .sarah{
     font-size: 4rem;
@@ -361,6 +377,10 @@ body a{
   .soical-icons {
     padding: 0px 0px 0px 0px;
   }
+  #projects {
+    padding-left: 10px;
+  }
+
 }
 /* 1150 */
 /* .sarah {
