@@ -1,6 +1,6 @@
 import {Component} from 'react';
 import Rentimage from '../components/documents/rent-a-bob.png'
-import Batchimage from '../components/documents/batchimage.png'
+import sk8 from '../components/documents/sk8.png'
 import Dobra from '../components/documents/dobra.png'
 import Turnbaseimage from '../components/documents/turnbasegame.png'
 import Github from '../components/documents/github.png'
@@ -33,21 +33,6 @@ class Project extends Component {
   </a>
 
 
-    <a href="https://django-batch-maker-beahoop.herokuapp.com/" target="_blank" rel="noreferrer">
-    <div class="flip-card m-2">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img src={Batchimage} alt="Rent-a-bob" className="preview-image"/>
-        </div>
-        <div class="flip-card-back">
-          <p className="flip-title">The Pie Chart</p>
-          <p className="flip-description">This page show cases my abilities to create full C.R.U.D and user profiles.
-          Admin abilities and client's who aren't logged in abilities.</p>
-
-        </div>
-      </div>
-    </div>
-  </a>
 
     <a href="https://beahoop.github.io/React-Menu-App/" target="_blank" rel="noreferrer">
     <div class="flip-card m-2">
@@ -63,6 +48,21 @@ class Project extends Component {
       </div>
     </div>
   </a>
+
+  <a href="https://beahoop.github.io/sk8/" target="_blank" rel="noreferrer">
+  <div class="flip-card m-2">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src={sk8} alt="Rent-a-bob" className="preview-image"/>
+      </div>
+      <div class="flip-card-back">
+        <p className="flip-title">Sk8</p>
+        <p className="flip-description"> Using bootstrap to visually replicate a wireframe.</p>
+      </div>
+    </div>
+  </div>
+</a>
+
 
     <a href="https://stevenschwengel.github.io/turnbasegame/" target="_blank" rel="noreferrer" >
     <div class="flip-card m-2">
