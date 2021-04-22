@@ -85,7 +85,7 @@ addRecipe(recipe){
           </div>
         </div>
         <div className="wrapper pl-4">
-        <div id="projects p-0">
+        <div id="projects">
           <Project/>
         </div>
       </div>

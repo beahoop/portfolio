@@ -372,9 +372,21 @@ body a{
   .soical-icons {
     padding: 0px 0px 0px 0px;
   }
-  /* #projects {
+  #projects {
     padding: 10px;
-  } */
+  }
+
+  .preview-image{
+    width: 350px;
+    height: 350px;
+  }
+
+  .flip-card {
+    width: 350px;
+    height: 350px;
+
+  }
+
 
 }
 
