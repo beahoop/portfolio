@@ -372,9 +372,9 @@ body a{
   .soical-icons {
     padding: 0px 0px 0px 0px;
   }
-  #projects {
+  /* #projects {
     padding: 10px;
-  }
+  } */
 
   .preview-image{
     width: 350px;
@@ -384,7 +384,6 @@ body a{
   .flip-card {
     width: 350px;
     height: 350px;
-
   }
 
   .flip-title {
@@ -398,7 +397,7 @@ body a{
 
 
 }
-
+/* 
 @media (min-width: 700px) {
   #projects {
     padding-left: 50px;
@@ -409,7 +408,7 @@ body a{
   #projects {
     padding-left: 60px;
   }
-}
+} */
 /* 1150 */
 /* .sarah {
   font-size: 6rem;

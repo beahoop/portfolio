@@ -78,13 +78,13 @@ addRecipe(recipe){
   render(){
     return (
 
-      <div className="container-fluid p-0">
+      <div className="container-fluid">
         <div className="above">
           <div id="about">
             <About/>
           </div>
         </div>
-        <div className="wrapper pl-4">
+        <div className="wrapper">
         <div id="projects">
           <Project/>
         </div>

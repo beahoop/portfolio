@@ -14,7 +14,7 @@ class Project extends Component {
   render(){
     return (
 
-    <div className="row mx-auto">
+  <div className="row justify-content-center">
 
   <a href="https://rent-a-bob.herokuapp.com/" target="_blank" rel="noreferrer">
     <div class="flip-card m-2">
