@@ -25,7 +25,7 @@ class Project extends Component {
         <div class="flip-card-back">
           <p className="flip-title">RENT-A-BOB</p>
           <p className="flip-description"> A client-facing webpage with a CMR backend. Designed
-                to automate Rent-A-Bob daily tasks and easy customer input.
+     to automate Rent-A-Bob daily tasks and easy customer input.
              </p>
         </div>
       </div>
@@ -42,8 +42,7 @@ class Project extends Component {
         </div>
         <div class="flip-card-back">
           <p className="flip-title">Dobra To-Go</p>
-          <p className="flip-description">A local tea shop, Dobra Tea serves food but only has to go food by phone.
-          This page represents the solution to this to solve this issue. </p>
+          <p className="flip-description">A local tea shop, Dobra Tea serves food but only has to go food by phone. This page represents the solution to this to solve this issue. </p>
         </div>
       </div>
     </div>
@@ -102,7 +101,7 @@ class Project extends Component {
           <img src={Octacats} alt="Rent-a-bob" className="preview-image"/>
       </div>
         <div class="flip-card-back">
-          <p className="flip-title">Responive Octacat Feed</p>
+          <p className="flip-title">Responsive Octacat Feed</p>
           <p className="flip-description">Showing off my abilities to create responsive feeds. Click around :].</p>
         </div>
       </div>
