@@ -24,8 +24,8 @@ class Project extends Component {
         </div>
         <div class="flip-card-back">
           <p className="flip-title">RENT-A-BOB</p>
-          <p className="flip-description"> A client facing webpage with a CMR backend. Designed
-                to automate Rent-A-Bob daily task and easy customer input.
+          <p className="flip-description"> A client-facing webpage with a CMR backend. Designed
+                to automate Rent-A-Bob daily tasks and easy customer input.
              </p>
         </div>
       </div>
@@ -42,8 +42,8 @@ class Project extends Component {
         </div>
         <div class="flip-card-back">
           <p className="flip-title">Dobra To-Go</p>
-          <p className="flip-description">A local tea shop, Dobra serves food but only has to go food by phone.
-          This page severs as preview to solve this issue. </p>
+          <p className="flip-description">A local tea shop, Dobra Tea serves food but only has to go food by phone.
+          This page represents the solution to this to solve this issue. </p>
         </div>
       </div>
     </div>
@@ -72,7 +72,7 @@ class Project extends Component {
       </div>
         <div class="flip-card-back">
           <p className="flip-title">Ship Invaders </p>
-          <p className="flip-description">A fun turn-based game to represented my ablites with javascript. </p>
+          <p className="flip-description">A fun turn-based game to represented my abilities with javascript. </p>
 
         </div>
       </div>
@@ -87,7 +87,7 @@ class Project extends Component {
         </div>
         <div class="flip-card-back">
           <p className="flip-title">Github Recreation</p>
-          <p className="flip-description">Showing my abilities to reproduce webpages with wireframes.</p>
+          <p className="flip-description">Showing my abilities to reproduce web pages with wireframes.</p>
 
         </div>
       </div>
@@ -103,7 +103,7 @@ class Project extends Component {
       </div>
         <div class="flip-card-back">
           <p className="flip-title">Responive Octacat Feed</p>
-          <p className="flip-description">Showing off my albitly to create responive feeds. Click round :].</p>
+          <p className="flip-description">Showing off my abilities to create responsive feeds. Click around :].</p>
         </div>
       </div>
     </div>
